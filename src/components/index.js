@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Header from './Header';
 import SectionContact from './SectionContact';
 import SectionContent from './SectionContent';
+import SectionRaw from './SectionRaw';
 import SectionCta from './SectionCta';
 import SectionFaq from './SectionFaq';
 import SectionFeatures from './SectionFeatures';
@@ -21,6 +22,7 @@ export {
     Header,
     SectionContact,
     SectionContent,
+    SectionRaw,
     SectionCta,
     SectionFaq,
     SectionFeatures,
@@ -40,6 +42,7 @@ export default {
     SectionContact,
     SectionContent,
     SectionCta,
+    SectionRaw,
     SectionFaq,
     SectionFeatures,
     SectionHero,
