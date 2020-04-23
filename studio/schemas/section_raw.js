@@ -65,7 +65,7 @@ export default {
             "validation": Rule => Rule.required(),
             "options": {
                 "list": [
-                    "section_content"
+                    "section_raw"
                 ]
             }
         },
