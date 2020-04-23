@@ -21,7 +21,7 @@ export default class SectionRaw extends React.Component {
                     <h2 className="block-title underline">{_.get(section, 'title')}</h2>
                     }
                     <div className="block-copy">
-                      {_.get(section, 'content') | safe}
+                      {_.get(section, 'content')}
                     </div>
                     {_.get(section, 'actions') && 
                       <CtaButtons {...this.props} actions={_.get(section, 'actions')} />
