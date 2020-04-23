@@ -21,6 +21,9 @@ export default {
                     "type": "section_content"
                 },
                 {
+                    "type": "section_raw"
+                },
+                {
                     "type": "section_cta"
                 },
                 {
