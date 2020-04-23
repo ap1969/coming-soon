@@ -1,7 +1,7 @@
 export default {
     "type": "object",
-    "name": "section_content",
-    "title": "Content Section",
+    "name": "section_raw",
+    "title": "Raw Section",
     "fields": [
         {
             "type": "string",
@@ -18,10 +18,10 @@ export default {
             "validation": null
         },
         {
-            "type": "markdown",
+            "type": "string",
             "name": "content",
             "title": "Content",
-            "description": "The text content of the section",
+            "description": "The raw content of the section",
             "validation": null
         },
         {
