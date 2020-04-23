@@ -1,5 +1,4 @@
 (function() {
-  alert("got it");
 try{
 var f = document.createElement("iframe");   
 f.src = 'https://forms.notifium.com/notifium/form/ComingSoonform/formperma/3NapKRgegDNZU0WGkR2zPzZ4rpF_sDjqW0cDiMl6Jlg?zf_rszfm=1';
@@ -21,7 +20,5 @@ iframe.style.height = zf_ifrm_ht_nw;
 }   
 }
 }, false);
-}catch(e){
-console.log(e);
-}
+}catch(e){}
 })();
