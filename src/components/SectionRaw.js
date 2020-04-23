@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {safePrefix, markdownify} from '../utils';
+import {safePrefix, markdownify, htmlToReact} from '../utils';
 import CtaButtons from './CtaButtons';
 
 export default class SectionRaw extends React.Component {
